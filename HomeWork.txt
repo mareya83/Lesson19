@@ -1,0 +1,19 @@
+Homework
+
+1) Create new repo in GitHub
+2) Create branches : dev , deploy , feature , hotFix , qa + <your_name>
+3) Create a simple HTML + CSS page ( What will be a content there - doesn’t matter )
++ use @media for small screen (fro example : 576px)
+
+Install venv  : 
+py -m venv env
+Activate vent : 
+.\env\Scripts\activate
+Install Selenium + Drivers 
+
+4) https://medium.com/
+
+	- Search panel 
+	- Click on the first element into nav-panel
+	- Click on third article there
+
