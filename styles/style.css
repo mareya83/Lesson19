@@ -66,6 +66,11 @@
     padding: 10vh;
 }
 
+h1 {
+    color:rgb(51, 5, 112);
+    text-shadow: 2px 5px 2px rgb(216, 98, 2);
+}
+
 td {
     text-align: center;
 }
@@ -82,3 +87,17 @@ h6 {
     text-align: center;
 }
 
+@media (max-width:  576px) {
+    #app, .header, .aside,  .footer {
+        background: rgb(238, 216, 95);
+    }
+
+    .header, .header .nav {
+        flex-direction: column;
+    }
+    
+    .header .nav, .nav__logo {
+        width: 25%;
+    }
+
+}
