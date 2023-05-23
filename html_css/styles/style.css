@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+h1 {
+    color:rgb(51, 5, 112);
+    text-shadow: 2px 5px 2px rgb(216, 98, 2);
+}
+
+td {
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+
 #app {
     background: rgb(238, 229, 178);
 }
@@ -13,7 +27,6 @@
 .main__wrapper,
 .footer, .footer__wrapper , .footer__wrapper .nav {
     display: flex;
-
 }
 
 .header {
@@ -66,15 +79,6 @@
     padding: 10vh;
 }
 
-h1 {
-    color:rgb(51, 5, 112);
-    text-shadow: 2px 5px 2px rgb(216, 98, 2);
-}
-
-td {
-    text-align: center;
-}
-
 .img {
     width: 400px;
 }
@@ -83,9 +87,7 @@ td {
     justify-content: right;
 }
 
-h6 {
-    text-align: center;
-}
+
 
 @media (max-width:  576px) {
     #app, .header, .aside,  .footer {
@@ -98,6 +100,14 @@ h6 {
     
     .header .nav, .nav__logo {
         width: 25%;
+    }
+
+    .img {
+        width: 200px;
+    }
+
+    .main__wrapper {
+        width: 50%;
     }
 
 }
