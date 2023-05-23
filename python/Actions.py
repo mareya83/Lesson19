@@ -10,6 +10,6 @@ class Action:
     def get_ection(self):
             sleep(3)
             ActionChains(self.driver).click(self.input).perform()
-            sleep(5)
+            sleep(10)
 
 

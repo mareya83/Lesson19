@@ -21,10 +21,16 @@ def main():
     driver = driver.__dict__["driver"]
 
     driver.get("https://medium.com")
+    
+    sleep(3)
 
-    Action(driver, Data(driver, "class_name", "bx").find_element()).get_ection()
+    nav_panel = Data(driver, "class_name", "n.p").find_element()
+    print(nav_panel)
 
-    Action(driver, Data(driver, "class_name", "button-text-2").find_element()).get_ection()
+    Action(driver, Data(driver, "class_name", "bs.q").find_element()).get_ection()
+    sleep(5)
+  
+    Action(driver, Data(driver, "class_name", "al.db").find_elements()[4]).get_ection()
 
     sleep(10)
 

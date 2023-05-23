@@ -20,3 +20,14 @@ class Data:
         if self.idetifire == "xpath":
             return self.driver.find_element(By.XPATH, self.value)
 
+    def find_elements(self):
+        sleep(5)
+        if self.idetifire == "id":
+            return self.driver.find_elements(By.ID, self.value)
+        
+        if self.idetifire == "class_name":
+            return self.driver.find_elements(By.CLASS_NAME, self.value)
+
+        if self.idetifire == "xpath":
+            return self.driver.find_elements(By.XPATH, self.value)
+
